@@ -1,0 +1,3 @@
+C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/BitCheckers.dir
+C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
