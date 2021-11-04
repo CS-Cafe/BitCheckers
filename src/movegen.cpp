@@ -10,13 +10,13 @@ namespace checkers::movegen {
         template<Alliance A, MoveType MT>
         Move* makeKing(Move* moves, Board* const b) {
 
+            if(MT == Promotion) return moves;
+
             constexpr Defaults* x = getDefaults<A>();
             constexpr Alliance us = A, them = ~us;
             constexpr uint64_t
                 ourPieces = b->getPieces<us, King>(),
                 enemies = b->getPieces<them, King>();
-
-            if(MT == Promotion) return moves;
 
             if(MT != Passive) {
                 // Aggressive king moves here?
