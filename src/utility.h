@@ -75,9 +75,9 @@ namespace checkers::utility {
     constexpr uint64_t BlackStartingPosition =
             0x0000000000AA55AAL;
     constexpr uint64_t NotWestFile
-            = 0x7F7F7F7F7F7F7F7FL;
-    constexpr uint64_t NotEastFile
             = 0xFEFEFEFEFEFEFEFEL;
+    constexpr uint64_t NotEastFile
+            = 0x7F7F7F7F7F7F7F7FL;
     constexpr uint64_t NotEdges
             = 0x007E7E7E7E7E7E00L;
     constexpr uint64_t NotEdgeFiles
@@ -124,8 +124,8 @@ namespace checkers::utility {
             SouthWest,
             NorthEast,
             NorthWest,
-            NotWestFile,
             NotEastFile,
+            NotWestFile,
             WhitePromotionMask,
             WhiteMidPromotionMask,
             WhiteHighPromotionMask
@@ -140,8 +140,8 @@ namespace checkers::utility {
             NorthEast,
             SouthWest,
             SouthEast,
-            NotEastFile,
             NotWestFile,
+            NotEastFile,
             BlackPromotionMask,
             BlackMidPromotionMask,
             BlackHighPromotionMask
