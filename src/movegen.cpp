@@ -12,9 +12,10 @@ namespace checkers::movegen {
 
             if(MT == Promotion) return moves;
 
-            constexpr Defaults* x = getDefaults<A>();
+            constexpr const Defaults* x = getDefaults<A>();
             constexpr Alliance us = A, them = ~us;
-            constexpr uint64_t
+            const uint64_t
+                allPieces = b->getAllPieces(),
                 ourPieces = b->getPieces<us, King>(),
                 enemies = b->getPieces<them, King>();
 
@@ -26,16 +27,16 @@ namespace checkers::movegen {
 
             uint64_t dr =
                 shift<x->downRight>(ourPieces & x->notRightFile)
-                    & ~enemies,
+                    & ~allPieces,
                     dl =
                 shift<x->downLeft>(ourPieces & x->notLeftFile)
-                    & ~enemies,
+                    & ~allPieces,
                     ur =
                 shift<x->upRight>(ourPieces & x->notRightFile)
-                    & ~enemies,
+                    & ~allPieces,
                     ul =
                 shift<x->upLeft>(ourPieces & x->notLeftFile)
-                    & ~enemies;
+                    & ~allPieces;
 
             for (int d; dr; dr &= dr - 1) {
                 d = bitScanFwd(dr);
@@ -67,9 +68,10 @@ namespace checkers::movegen {
         template<Alliance A, MoveType MT>
         Move* makePawn(Move* moves, Board* const b) {
 
-            constexpr Defaults* x = getDefaults<A>();
+            constexpr const Defaults* x = getDefaults<A>();
             constexpr Alliance us = A, them = ~us;
-            constexpr uint64_t
+            const uint64_t
+                allPieces = b->getAllPieces(),
                 ourPieces = b->getPieces<us, Pawn>(),
                 enemies = b->getPieces<them, Pawn>(),
                 ourLowPieces = ourPieces & ~x->promotionMask,
@@ -92,10 +94,10 @@ namespace checkers::movegen {
 
                 uint64_t ur =
                     shift<x->upRight>(ourLowPieces & x->notRightFile)
-                        & ~enemies,
+                        & ~allPieces,
                          ul =
                     shift<x->upLeft>(ourLowPieces & x->notLeftFile)
-                        & ~enemies;
+                        & ~allPieces;
 
                 for (int d; ur; ur &= ur - 1) {
                     d = bitScanFwd(ur);
@@ -112,10 +114,10 @@ namespace checkers::movegen {
 
             uint64_t pr =
                 shift<x->upRight>(ourHighPieces & x->notRightFile)
-                    & ~enemies,
+                    & ~allPieces,
                      pl =
                 shift<x->upLeft>(ourHighPieces & x->notLeftFile)
-                    & ~enemies;
+                    & ~allPieces;
 
             for(int d; pr; pr &= pr - 1) {
                 d = bitScanFwd(pr);
@@ -134,15 +136,22 @@ namespace checkers::movegen {
 
         template<Alliance A, MoveType MT>
         Move* makeAll(Move* moves, Board* const b) {
-            constexpr Defaults* x = getDefaults<A>();
-            //stub
+            constexpr const Defaults* x = getDefaults<A>();
+            moves = makeKing<A, MT>(moves, b);
+            moves = makePawn<A, MT>(moves, b);
+            return moves;
         }
     }
 
     template<MoveType MT>
     Move* generate(Move* moves, Board* const b) {
         return b->currentPlayer() == White ?
-                makeAll<White, MT>() :
-                makeAll<Black, MT>() ;
+                makeAll<White, MT>(moves, b) :
+                makeAll<Black, MT>(moves, b) ;
     }
+
+    template Move* generate<All>(Move*, Board*);
+    template Move* generate<Aggressive>(Move*, Board*);
+    template Move* generate<Passive>(Move*, Board*);
+    template Move* generate<Promotion>(Move*, Board*);
 }

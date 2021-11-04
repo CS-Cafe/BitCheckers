@@ -8,6 +8,8 @@ CMakeFiles/BitCheckers.dir/src/board.cpp.obj
 CMakeFiles/BitCheckers.dir/src/main.cpp.obj
  C:/Users/evcmo/CLionProjects/BitCheckers/src/board.h
  C:/Users/evcmo/CLionProjects/BitCheckers/src/main.cpp
+ C:/Users/evcmo/CLionProjects/BitCheckers/src/move.h
+ C:/Users/evcmo/CLionProjects/BitCheckers/src/movegen.h
  C:/Users/evcmo/CLionProjects/BitCheckers/src/utility.h
 CMakeFiles/BitCheckers.dir/src/movegen.cpp.obj
  C:/Users/evcmo/CLionProjects/BitCheckers/src/board.h

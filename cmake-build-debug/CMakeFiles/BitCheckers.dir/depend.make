@@ -8,6 +8,8 @@ CMakeFiles/BitCheckers.dir/src/board.cpp.obj: \
 CMakeFiles/BitCheckers.dir/src/main.cpp.obj: \
  ../src/board.h \
  ../src/main.cpp \
+ ../src/move.h \
+ ../src/movegen.h \
  ../src/utility.h
 CMakeFiles/BitCheckers.dir/src/movegen.cpp.obj: \
  ../src/board.h \

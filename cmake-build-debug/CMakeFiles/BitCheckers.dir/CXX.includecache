@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/evcmo/CLionProjects/BitCheckers/src/board.cpp
+board.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/board.h
+
 C:/Users/evcmo/CLionProjects/BitCheckers/src/board.h
 utility.h
 C:/Users/evcmo/CLionProjects/BitCheckers/src/utility.h
+
+C:/Users/evcmo/CLionProjects/BitCheckers/src/main.cpp
+iostream
+-
+board.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/board.h
+move.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/move.h
+movegen.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/movegen.h
 
 C:/Users/evcmo/CLionProjects/BitCheckers/src/move.h
 utility.h
@@ -25,6 +39,10 @@ move.h
 C:/Users/evcmo/CLionProjects/BitCheckers/src/move.h
 board.h
 C:/Users/evcmo/CLionProjects/BitCheckers/src/board.h
+
+C:/Users/evcmo/CLionProjects/BitCheckers/src/utility.cpp
+utility.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/utility.h
 
 C:/Users/evcmo/CLionProjects/BitCheckers/src/utility.h
 ostream

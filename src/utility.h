@@ -124,8 +124,8 @@ namespace checkers::utility {
             SouthWest,
             NorthEast,
             NorthWest,
-            NotEastFile,
             NotWestFile,
+            NotEastFile,
             WhitePromotionMask,
             WhiteMidPromotionMask,
             WhiteHighPromotionMask
@@ -140,8 +140,8 @@ namespace checkers::utility {
             NorthEast,
             SouthWest,
             SouthEast,
-            NotWestFile,
             NotEastFile,
+            NotWestFile,
             BlackPromotionMask,
             BlackMidPromotionMask,
             BlackHighPromotionMask
