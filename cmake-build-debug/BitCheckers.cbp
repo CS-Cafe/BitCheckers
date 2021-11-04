@@ -80,34 +80,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/board.cpp">
+		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/src/board.cpp">
 			<Option target="BitCheckers"/>
 		</Unit>
-		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/board.h">
+		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/src/board.h">
 			<Option target="BitCheckers"/>
 		</Unit>
-		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/main.cpp">
+		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/src/main.cpp">
 			<Option target="BitCheckers"/>
 		</Unit>
-		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/move.h">
+		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/src/move.h">
 			<Option target="BitCheckers"/>
 		</Unit>
-		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/movegen.cpp">
+		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/src/movegen.cpp">
 			<Option target="BitCheckers"/>
 		</Unit>
-		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/movegen.h">
+		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/src/movegen.h">
 			<Option target="BitCheckers"/>
 		</Unit>
-		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/opponent.cpp">
+		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/src/opponent.cpp">
 			<Option target="BitCheckers"/>
 		</Unit>
-		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/opponent.h">
+		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/src/opponent.h">
 			<Option target="BitCheckers"/>
 		</Unit>
-		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/utility.cpp">
+		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/src/utility.cpp">
 			<Option target="BitCheckers"/>
 		</Unit>
-		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/utility.h">
+		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/src/utility.h">
 			<Option target="BitCheckers"/>
 		</Unit>
 		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/CMakeLists.txt">

@@ -10,7 +10,6 @@
 
 namespace checkers::movegen {
     using namespace utility;
-    using namespace board;
 
     template<MoveType MT>
     Move* generate(Move*, Board*);

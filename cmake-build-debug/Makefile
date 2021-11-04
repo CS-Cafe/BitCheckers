@@ -128,125 +128,125 @@ BitCheckers/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/build
 .PHONY : BitCheckers/fast
 
-board.obj: board.cpp.obj
-.PHONY : board.obj
+src/board.obj: src/board.cpp.obj
+.PHONY : src/board.obj
 
 # target to build an object file
-board.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/board.cpp.obj
-.PHONY : board.cpp.obj
+src/board.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/board.cpp.obj
+.PHONY : src/board.cpp.obj
 
-board.i: board.cpp.i
-.PHONY : board.i
+src/board.i: src/board.cpp.i
+.PHONY : src/board.i
 
 # target to preprocess a source file
-board.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/board.cpp.i
-.PHONY : board.cpp.i
+src/board.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/board.cpp.i
+.PHONY : src/board.cpp.i
 
-board.s: board.cpp.s
-.PHONY : board.s
+src/board.s: src/board.cpp.s
+.PHONY : src/board.s
 
 # target to generate assembly for a file
-board.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/board.cpp.s
-.PHONY : board.cpp.s
+src/board.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/board.cpp.s
+.PHONY : src/board.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-movegen.obj: movegen.cpp.obj
-.PHONY : movegen.obj
+src/movegen.obj: src/movegen.cpp.obj
+.PHONY : src/movegen.obj
 
 # target to build an object file
-movegen.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/movegen.cpp.obj
-.PHONY : movegen.cpp.obj
+src/movegen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/movegen.cpp.obj
+.PHONY : src/movegen.cpp.obj
 
-movegen.i: movegen.cpp.i
-.PHONY : movegen.i
+src/movegen.i: src/movegen.cpp.i
+.PHONY : src/movegen.i
 
 # target to preprocess a source file
-movegen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/movegen.cpp.i
-.PHONY : movegen.cpp.i
+src/movegen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/movegen.cpp.i
+.PHONY : src/movegen.cpp.i
 
-movegen.s: movegen.cpp.s
-.PHONY : movegen.s
+src/movegen.s: src/movegen.cpp.s
+.PHONY : src/movegen.s
 
 # target to generate assembly for a file
-movegen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/movegen.cpp.s
-.PHONY : movegen.cpp.s
+src/movegen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/movegen.cpp.s
+.PHONY : src/movegen.cpp.s
 
-opponent.obj: opponent.cpp.obj
-.PHONY : opponent.obj
+src/opponent.obj: src/opponent.cpp.obj
+.PHONY : src/opponent.obj
 
 # target to build an object file
-opponent.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/opponent.cpp.obj
-.PHONY : opponent.cpp.obj
+src/opponent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/opponent.cpp.obj
+.PHONY : src/opponent.cpp.obj
 
-opponent.i: opponent.cpp.i
-.PHONY : opponent.i
+src/opponent.i: src/opponent.cpp.i
+.PHONY : src/opponent.i
 
 # target to preprocess a source file
-opponent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/opponent.cpp.i
-.PHONY : opponent.cpp.i
+src/opponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/opponent.cpp.i
+.PHONY : src/opponent.cpp.i
 
-opponent.s: opponent.cpp.s
-.PHONY : opponent.s
+src/opponent.s: src/opponent.cpp.s
+.PHONY : src/opponent.s
 
 # target to generate assembly for a file
-opponent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/opponent.cpp.s
-.PHONY : opponent.cpp.s
+src/opponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/opponent.cpp.s
+.PHONY : src/opponent.cpp.s
 
-utility.obj: utility.cpp.obj
-.PHONY : utility.obj
+src/utility.obj: src/utility.cpp.obj
+.PHONY : src/utility.obj
 
 # target to build an object file
-utility.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/utility.cpp.obj
-.PHONY : utility.cpp.obj
+src/utility.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/utility.cpp.obj
+.PHONY : src/utility.cpp.obj
 
-utility.i: utility.cpp.i
-.PHONY : utility.i
+src/utility.i: src/utility.cpp.i
+.PHONY : src/utility.i
 
 # target to preprocess a source file
-utility.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/utility.cpp.i
-.PHONY : utility.cpp.i
+src/utility.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/utility.cpp.i
+.PHONY : src/utility.cpp.i
 
-utility.s: utility.cpp.s
-.PHONY : utility.s
+src/utility.s: src/utility.cpp.s
+.PHONY : src/utility.s
 
 # target to generate assembly for a file
-utility.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/utility.cpp.s
-.PHONY : utility.cpp.s
+src/utility.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitCheckers.dir\build.make CMakeFiles/BitCheckers.dir/src/utility.cpp.s
+.PHONY : src/utility.cpp.s
 
 # Help Target
 help:
@@ -257,21 +257,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BitCheckers
-	@echo ... board.obj
-	@echo ... board.i
-	@echo ... board.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... movegen.obj
-	@echo ... movegen.i
-	@echo ... movegen.s
-	@echo ... opponent.obj
-	@echo ... opponent.i
-	@echo ... opponent.s
-	@echo ... utility.obj
-	@echo ... utility.i
-	@echo ... utility.s
+	@echo ... src/board.obj
+	@echo ... src/board.i
+	@echo ... src/board.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
+	@echo ... src/movegen.obj
+	@echo ... src/movegen.i
+	@echo ... src/movegen.s
+	@echo ... src/opponent.obj
+	@echo ... src/opponent.i
+	@echo ... src/opponent.s
+	@echo ... src/utility.obj
+	@echo ... src/utility.i
+	@echo ... src/utility.s
 .PHONY : help
 
 

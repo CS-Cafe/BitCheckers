@@ -2,11 +2,11 @@ file(REMOVE_RECURSE
   "BitCheckers.exe"
   "BitCheckers.exe.manifest"
   "BitCheckers.pdb"
-  "CMakeFiles/BitCheckers.dir/board.cpp.obj"
-  "CMakeFiles/BitCheckers.dir/main.cpp.obj"
-  "CMakeFiles/BitCheckers.dir/movegen.cpp.obj"
-  "CMakeFiles/BitCheckers.dir/opponent.cpp.obj"
-  "CMakeFiles/BitCheckers.dir/utility.cpp.obj"
+  "CMakeFiles/BitCheckers.dir/src/board.cpp.obj"
+  "CMakeFiles/BitCheckers.dir/src/main.cpp.obj"
+  "CMakeFiles/BitCheckers.dir/src/movegen.cpp.obj"
+  "CMakeFiles/BitCheckers.dir/src/opponent.cpp.obj"
+  "CMakeFiles/BitCheckers.dir/src/utility.cpp.obj"
   "libBitCheckers.dll.a"
 )
 

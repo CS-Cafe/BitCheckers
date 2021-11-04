@@ -74,9 +74,9 @@ namespace checkers::utility {
             0x55AA550000000000L;
     constexpr uint64_t BlackStartingPosition =
             0x0000000000AA55AAL;
-    constexpr uint64_t NotEastFile
-            = 0x7F7F7F7F7F7F7F7FL;
     constexpr uint64_t NotWestFile
+            = 0x7F7F7F7F7F7F7F7FL;
+    constexpr uint64_t NotEastFile
             = 0xFEFEFEFEFEFEFEFEL;
     constexpr uint64_t NotEdges
             = 0x007E7E7E7E7E7E00L;
@@ -86,27 +86,58 @@ namespace checkers::utility {
             = 0x00FFFFFFFFFFFF00L;
     constexpr uint64_t FullBoard
             = 0xFFFFFFFFFFFFFFFFL;
-    constexpr uint64_t WhitePromotionMask
+    constexpr uint64_t WhiteHighPromotionMask
             = 0x00000000000000FFL;
-    constexpr uint64_t BlackPromotionMask
+    constexpr uint64_t BlackHighPromotionMask
+            = 0xFF00000000000000L;
+    constexpr uint64_t WhiteMidPromotionMask
+            = 0x00000000000000FFL;
+    constexpr uint64_t BlackMidPromotionMask
             = 0xFF00000000000000L;
 
     struct Defaults final {
+        const Direction up;
+        const Direction Down;
+        const Direction left;
+        const Direction right;
+        const Direction upLeft;
+        const Direction upRight;
+        const Direction downLeft;
+        const Direction downRight;
         const uint64_t notLeftFile;
         const uint64_t notRightFile;
-        const uint64_t promotionMask;
+        const uint64_t midPromotionMask;
+        const uint64_t highPromotionMask;
     };
 
     constexpr Defaults WhiteDefaults {
-        NotWestFile,
-        NotEastFile,
-        WhitePromotionMask
+            South,
+            North,
+            East,
+            West,
+            SouthEast,
+            SouthWest,
+            NorthEast,
+            NorthWest,
+            NotEastFile,
+            NotWestFile,
+            WhiteMidPromotionMask,
+            WhiteHighPromotionMask
     };
 
     constexpr Defaults BlackDefaults {
-        NotEastFile,
-        NotWestFile,
-        BlackPromotionMask
+            North,
+            South,
+            West,
+            East,
+            NorthWest,
+            NorthEast,
+            SouthWest,
+            SouthEast,
+            NotWestFile,
+            NotEastFile,
+            BlackMidPromotionMask,
+            BlackHighPromotionMask
     };
 
     template<Alliance A>

@@ -6,37 +6,27 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/evcmo/CLionProjects/BitCheckers/board.cpp
-board.h
-C:/Users/evcmo/CLionProjects/BitCheckers/board.h
-
-C:/Users/evcmo/CLionProjects/BitCheckers/board.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/board.h
 utility.h
-C:/Users/evcmo/CLionProjects/BitCheckers/utility.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/utility.h
 
-C:/Users/evcmo/CLionProjects/BitCheckers/main.cpp
-iostream
--
-board.h
-C:/Users/evcmo/CLionProjects/BitCheckers/board.h
-
-C:/Users/evcmo/CLionProjects/BitCheckers/move.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/move.h
 utility.h
-C:/Users/evcmo/CLionProjects/BitCheckers/utility.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/utility.h
 
-C:/Users/evcmo/CLionProjects/BitCheckers/movegen.cpp
+C:/Users/evcmo/CLionProjects/BitCheckers/src/movegen.cpp
 movegen.h
-C:/Users/evcmo/CLionProjects/BitCheckers/movegen.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/movegen.h
 
-C:/Users/evcmo/CLionProjects/BitCheckers/movegen.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/movegen.h
 utility.h
-C:/Users/evcmo/CLionProjects/BitCheckers/utility.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/utility.h
 move.h
-C:/Users/evcmo/CLionProjects/BitCheckers/move.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/move.h
 board.h
-C:/Users/evcmo/CLionProjects/BitCheckers/board.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/board.h
 
-C:/Users/evcmo/CLionProjects/BitCheckers/utility.h
+C:/Users/evcmo/CLionProjects/BitCheckers/src/utility.h
 ostream
 -
 cassert

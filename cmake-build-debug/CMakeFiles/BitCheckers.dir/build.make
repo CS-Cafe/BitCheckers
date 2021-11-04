@@ -65,87 +65,87 @@ include CMakeFiles/BitCheckers.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BitCheckers.dir/flags.make
 
-CMakeFiles/BitCheckers.dir/main.cpp.obj: CMakeFiles/BitCheckers.dir/flags.make
-CMakeFiles/BitCheckers.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evcmo\CLionProjects\BitCheckers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BitCheckers.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BitCheckers.dir\main.cpp.obj -c C:\Users\evcmo\CLionProjects\BitCheckers\main.cpp
+CMakeFiles/BitCheckers.dir/src/main.cpp.obj: CMakeFiles/BitCheckers.dir/flags.make
+CMakeFiles/BitCheckers.dir/src/main.cpp.obj: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evcmo\CLionProjects\BitCheckers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BitCheckers.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BitCheckers.dir\src\main.cpp.obj -c C:\Users\evcmo\CLionProjects\BitCheckers\src\main.cpp
 
-CMakeFiles/BitCheckers.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BitCheckers.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evcmo\CLionProjects\BitCheckers\main.cpp > CMakeFiles\BitCheckers.dir\main.cpp.i
+CMakeFiles/BitCheckers.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BitCheckers.dir/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evcmo\CLionProjects\BitCheckers\src\main.cpp > CMakeFiles\BitCheckers.dir\src\main.cpp.i
 
-CMakeFiles/BitCheckers.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BitCheckers.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evcmo\CLionProjects\BitCheckers\main.cpp -o CMakeFiles\BitCheckers.dir\main.cpp.s
+CMakeFiles/BitCheckers.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BitCheckers.dir/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evcmo\CLionProjects\BitCheckers\src\main.cpp -o CMakeFiles\BitCheckers.dir\src\main.cpp.s
 
-CMakeFiles/BitCheckers.dir/board.cpp.obj: CMakeFiles/BitCheckers.dir/flags.make
-CMakeFiles/BitCheckers.dir/board.cpp.obj: ../board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evcmo\CLionProjects\BitCheckers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BitCheckers.dir/board.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BitCheckers.dir\board.cpp.obj -c C:\Users\evcmo\CLionProjects\BitCheckers\board.cpp
+CMakeFiles/BitCheckers.dir/src/board.cpp.obj: CMakeFiles/BitCheckers.dir/flags.make
+CMakeFiles/BitCheckers.dir/src/board.cpp.obj: ../src/board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evcmo\CLionProjects\BitCheckers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BitCheckers.dir/src/board.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BitCheckers.dir\src\board.cpp.obj -c C:\Users\evcmo\CLionProjects\BitCheckers\src\board.cpp
 
-CMakeFiles/BitCheckers.dir/board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BitCheckers.dir/board.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evcmo\CLionProjects\BitCheckers\board.cpp > CMakeFiles\BitCheckers.dir\board.cpp.i
+CMakeFiles/BitCheckers.dir/src/board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BitCheckers.dir/src/board.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evcmo\CLionProjects\BitCheckers\src\board.cpp > CMakeFiles\BitCheckers.dir\src\board.cpp.i
 
-CMakeFiles/BitCheckers.dir/board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BitCheckers.dir/board.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evcmo\CLionProjects\BitCheckers\board.cpp -o CMakeFiles\BitCheckers.dir\board.cpp.s
+CMakeFiles/BitCheckers.dir/src/board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BitCheckers.dir/src/board.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evcmo\CLionProjects\BitCheckers\src\board.cpp -o CMakeFiles\BitCheckers.dir\src\board.cpp.s
 
-CMakeFiles/BitCheckers.dir/utility.cpp.obj: CMakeFiles/BitCheckers.dir/flags.make
-CMakeFiles/BitCheckers.dir/utility.cpp.obj: ../utility.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evcmo\CLionProjects\BitCheckers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BitCheckers.dir/utility.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BitCheckers.dir\utility.cpp.obj -c C:\Users\evcmo\CLionProjects\BitCheckers\utility.cpp
+CMakeFiles/BitCheckers.dir/src/utility.cpp.obj: CMakeFiles/BitCheckers.dir/flags.make
+CMakeFiles/BitCheckers.dir/src/utility.cpp.obj: ../src/utility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evcmo\CLionProjects\BitCheckers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BitCheckers.dir/src/utility.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BitCheckers.dir\src\utility.cpp.obj -c C:\Users\evcmo\CLionProjects\BitCheckers\src\utility.cpp
 
-CMakeFiles/BitCheckers.dir/utility.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BitCheckers.dir/utility.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evcmo\CLionProjects\BitCheckers\utility.cpp > CMakeFiles\BitCheckers.dir\utility.cpp.i
+CMakeFiles/BitCheckers.dir/src/utility.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BitCheckers.dir/src/utility.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evcmo\CLionProjects\BitCheckers\src\utility.cpp > CMakeFiles\BitCheckers.dir\src\utility.cpp.i
 
-CMakeFiles/BitCheckers.dir/utility.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BitCheckers.dir/utility.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evcmo\CLionProjects\BitCheckers\utility.cpp -o CMakeFiles\BitCheckers.dir\utility.cpp.s
+CMakeFiles/BitCheckers.dir/src/utility.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BitCheckers.dir/src/utility.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evcmo\CLionProjects\BitCheckers\src\utility.cpp -o CMakeFiles\BitCheckers.dir\src\utility.cpp.s
 
-CMakeFiles/BitCheckers.dir/movegen.cpp.obj: CMakeFiles/BitCheckers.dir/flags.make
-CMakeFiles/BitCheckers.dir/movegen.cpp.obj: ../movegen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evcmo\CLionProjects\BitCheckers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BitCheckers.dir/movegen.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BitCheckers.dir\movegen.cpp.obj -c C:\Users\evcmo\CLionProjects\BitCheckers\movegen.cpp
+CMakeFiles/BitCheckers.dir/src/movegen.cpp.obj: CMakeFiles/BitCheckers.dir/flags.make
+CMakeFiles/BitCheckers.dir/src/movegen.cpp.obj: ../src/movegen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evcmo\CLionProjects\BitCheckers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BitCheckers.dir/src/movegen.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BitCheckers.dir\src\movegen.cpp.obj -c C:\Users\evcmo\CLionProjects\BitCheckers\src\movegen.cpp
 
-CMakeFiles/BitCheckers.dir/movegen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BitCheckers.dir/movegen.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evcmo\CLionProjects\BitCheckers\movegen.cpp > CMakeFiles\BitCheckers.dir\movegen.cpp.i
+CMakeFiles/BitCheckers.dir/src/movegen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BitCheckers.dir/src/movegen.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evcmo\CLionProjects\BitCheckers\src\movegen.cpp > CMakeFiles\BitCheckers.dir\src\movegen.cpp.i
 
-CMakeFiles/BitCheckers.dir/movegen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BitCheckers.dir/movegen.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evcmo\CLionProjects\BitCheckers\movegen.cpp -o CMakeFiles\BitCheckers.dir\movegen.cpp.s
+CMakeFiles/BitCheckers.dir/src/movegen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BitCheckers.dir/src/movegen.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evcmo\CLionProjects\BitCheckers\src\movegen.cpp -o CMakeFiles\BitCheckers.dir\src\movegen.cpp.s
 
-CMakeFiles/BitCheckers.dir/opponent.cpp.obj: CMakeFiles/BitCheckers.dir/flags.make
-CMakeFiles/BitCheckers.dir/opponent.cpp.obj: ../opponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evcmo\CLionProjects\BitCheckers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BitCheckers.dir/opponent.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BitCheckers.dir\opponent.cpp.obj -c C:\Users\evcmo\CLionProjects\BitCheckers\opponent.cpp
+CMakeFiles/BitCheckers.dir/src/opponent.cpp.obj: CMakeFiles/BitCheckers.dir/flags.make
+CMakeFiles/BitCheckers.dir/src/opponent.cpp.obj: ../src/opponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evcmo\CLionProjects\BitCheckers\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BitCheckers.dir/src/opponent.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BitCheckers.dir\src\opponent.cpp.obj -c C:\Users\evcmo\CLionProjects\BitCheckers\src\opponent.cpp
 
-CMakeFiles/BitCheckers.dir/opponent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BitCheckers.dir/opponent.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evcmo\CLionProjects\BitCheckers\opponent.cpp > CMakeFiles\BitCheckers.dir\opponent.cpp.i
+CMakeFiles/BitCheckers.dir/src/opponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BitCheckers.dir/src/opponent.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evcmo\CLionProjects\BitCheckers\src\opponent.cpp > CMakeFiles\BitCheckers.dir\src\opponent.cpp.i
 
-CMakeFiles/BitCheckers.dir/opponent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BitCheckers.dir/opponent.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evcmo\CLionProjects\BitCheckers\opponent.cpp -o CMakeFiles\BitCheckers.dir\opponent.cpp.s
+CMakeFiles/BitCheckers.dir/src/opponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BitCheckers.dir/src/opponent.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evcmo\CLionProjects\BitCheckers\src\opponent.cpp -o CMakeFiles\BitCheckers.dir\src\opponent.cpp.s
 
 # Object files for target BitCheckers
 BitCheckers_OBJECTS = \
-"CMakeFiles/BitCheckers.dir/main.cpp.obj" \
-"CMakeFiles/BitCheckers.dir/board.cpp.obj" \
-"CMakeFiles/BitCheckers.dir/utility.cpp.obj" \
-"CMakeFiles/BitCheckers.dir/movegen.cpp.obj" \
-"CMakeFiles/BitCheckers.dir/opponent.cpp.obj"
+"CMakeFiles/BitCheckers.dir/src/main.cpp.obj" \
+"CMakeFiles/BitCheckers.dir/src/board.cpp.obj" \
+"CMakeFiles/BitCheckers.dir/src/utility.cpp.obj" \
+"CMakeFiles/BitCheckers.dir/src/movegen.cpp.obj" \
+"CMakeFiles/BitCheckers.dir/src/opponent.cpp.obj"
 
 # External object files for target BitCheckers
 BitCheckers_EXTERNAL_OBJECTS =
 
-BitCheckers.exe: CMakeFiles/BitCheckers.dir/main.cpp.obj
-BitCheckers.exe: CMakeFiles/BitCheckers.dir/board.cpp.obj
-BitCheckers.exe: CMakeFiles/BitCheckers.dir/utility.cpp.obj
-BitCheckers.exe: CMakeFiles/BitCheckers.dir/movegen.cpp.obj
-BitCheckers.exe: CMakeFiles/BitCheckers.dir/opponent.cpp.obj
+BitCheckers.exe: CMakeFiles/BitCheckers.dir/src/main.cpp.obj
+BitCheckers.exe: CMakeFiles/BitCheckers.dir/src/board.cpp.obj
+BitCheckers.exe: CMakeFiles/BitCheckers.dir/src/utility.cpp.obj
+BitCheckers.exe: CMakeFiles/BitCheckers.dir/src/movegen.cpp.obj
+BitCheckers.exe: CMakeFiles/BitCheckers.dir/src/opponent.cpp.obj
 BitCheckers.exe: CMakeFiles/BitCheckers.dir/build.make
 BitCheckers.exe: CMakeFiles/BitCheckers.dir/linklibs.rsp
 BitCheckers.exe: CMakeFiles/BitCheckers.dir/objects1.rsp

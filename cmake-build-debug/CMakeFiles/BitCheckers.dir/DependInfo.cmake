@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/evcmo/CLionProjects/BitCheckers/board.cpp" "C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/BitCheckers.dir/board.cpp.obj"
-  "C:/Users/evcmo/CLionProjects/BitCheckers/main.cpp" "C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/BitCheckers.dir/main.cpp.obj"
-  "C:/Users/evcmo/CLionProjects/BitCheckers/movegen.cpp" "C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/BitCheckers.dir/movegen.cpp.obj"
-  "C:/Users/evcmo/CLionProjects/BitCheckers/opponent.cpp" "C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/BitCheckers.dir/opponent.cpp.obj"
-  "C:/Users/evcmo/CLionProjects/BitCheckers/utility.cpp" "C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/BitCheckers.dir/utility.cpp.obj"
+  "C:/Users/evcmo/CLionProjects/BitCheckers/src/board.cpp" "C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/BitCheckers.dir/src/board.cpp.obj"
+  "C:/Users/evcmo/CLionProjects/BitCheckers/src/main.cpp" "C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/BitCheckers.dir/src/main.cpp.obj"
+  "C:/Users/evcmo/CLionProjects/BitCheckers/src/movegen.cpp" "C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/BitCheckers.dir/src/movegen.cpp.obj"
+  "C:/Users/evcmo/CLionProjects/BitCheckers/src/opponent.cpp" "C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/BitCheckers.dir/src/opponent.cpp.obj"
+  "C:/Users/evcmo/CLionProjects/BitCheckers/src/utility.cpp" "C:/Users/evcmo/CLionProjects/BitCheckers/cmake-build-debug/CMakeFiles/BitCheckers.dir/src/utility.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
