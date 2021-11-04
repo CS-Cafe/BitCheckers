@@ -137,8 +137,10 @@ namespace checkers::movegen {
         template<Alliance A, MoveType MT>
         Move* makeAll(Move* moves, Board* const b) {
             constexpr const Defaults* x = getDefaults<A>();
+            // stubs.
             moves = makeKing<A, MT>(moves, b);
             moves = makePawn<A, MT>(moves, b);
+            // stub.
             return moves;
         }
     }
