@@ -89,6 +89,9 @@
 		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/main.cpp">
 			<Option target="BitCheckers"/>
 		</Unit>
+		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/move.h">
+			<Option target="BitCheckers"/>
+		</Unit>
 		<Unit filename="C:/Users/evcmo/CLionProjects/BitCheckers/movegen.cpp">
 			<Option target="BitCheckers"/>
 		</Unit>

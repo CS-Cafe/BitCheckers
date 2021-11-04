@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/evcmo/CLionProjects/BitCheckers/board.cpp
+board.h
+C:/Users/evcmo/CLionProjects/BitCheckers/board.h
+
+C:/Users/evcmo/CLionProjects/BitCheckers/board.h
+utility.h
+C:/Users/evcmo/CLionProjects/BitCheckers/utility.h
+
+C:/Users/evcmo/CLionProjects/BitCheckers/main.cpp
+iostream
+-
+board.h
+C:/Users/evcmo/CLionProjects/BitCheckers/board.h
+
+C:/Users/evcmo/CLionProjects/BitCheckers/move.h
+utility.h
+C:/Users/evcmo/CLionProjects/BitCheckers/utility.h
+
+C:/Users/evcmo/CLionProjects/BitCheckers/movegen.cpp
+movegen.h
+C:/Users/evcmo/CLionProjects/BitCheckers/movegen.h
+
+C:/Users/evcmo/CLionProjects/BitCheckers/movegen.h
+utility.h
+C:/Users/evcmo/CLionProjects/BitCheckers/utility.h
+move.h
+C:/Users/evcmo/CLionProjects/BitCheckers/move.h
+board.h
+C:/Users/evcmo/CLionProjects/BitCheckers/board.h
+
+C:/Users/evcmo/CLionProjects/BitCheckers/utility.h
+ostream
+-
+cassert
+-
+
