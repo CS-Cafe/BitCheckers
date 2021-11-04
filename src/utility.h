@@ -91,9 +91,13 @@ namespace checkers::utility {
     constexpr uint64_t BlackHighPromotionMask
             = 0xFF00000000000000L;
     constexpr uint64_t WhiteMidPromotionMask
-            = 0x00000000000000FFL;
+            = 0x000000000000FF00L;
     constexpr uint64_t BlackMidPromotionMask
-            = 0xFF00000000000000L;
+            = 0x00FF000000000000L;
+    constexpr uint64_t WhitePromotionMask
+            = 0x000000000000FFFFL;
+    constexpr uint64_t BlackPromotionMask
+            = 0xFFFF000000000000L;
 
     struct Defaults final {
         const Direction up;
@@ -106,6 +110,7 @@ namespace checkers::utility {
         const Direction downRight;
         const uint64_t notLeftFile;
         const uint64_t notRightFile;
+        const uint64_t promotionMask;
         const uint64_t midPromotionMask;
         const uint64_t highPromotionMask;
     };
@@ -121,6 +126,7 @@ namespace checkers::utility {
             NorthWest,
             NotEastFile,
             NotWestFile,
+            WhitePromotionMask,
             WhiteMidPromotionMask,
             WhiteHighPromotionMask
     };
@@ -136,6 +142,7 @@ namespace checkers::utility {
             SouthEast,
             NotWestFile,
             NotEastFile,
+            BlackPromotionMask,
             BlackMidPromotionMask,
             BlackHighPromotionMask
     };

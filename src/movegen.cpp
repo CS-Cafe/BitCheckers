@@ -12,53 +12,53 @@ namespace checkers::movegen {
 
             constexpr Defaults* x = getDefaults<A>();
             constexpr Alliance us = A, them = ~us;
-            constexpr uint64_t ourPieces = b->getPieces<us, King>(),
-                               enemies = b->getPieces<them, King>();
+            constexpr uint64_t
+                ourPieces = b->getPieces<us, King>(),
+                enemies = b->getPieces<them, King>();
 
             if(MT == Promotion) return moves;
 
-            if(MT != Aggressive) {
-
-                uint64_t dr =
-                        shift<x->downRight>(ourPieces & x->notRightFile)
-                        & ~enemies,
-                        dl =
-                        shift<x->downLeft>(ourPieces & x->notLeftFile)
-                        & ~enemies,
-                        ur =
-                        shift<x->upRight>(ourPieces & x->notRightFile)
-                        & ~enemies,
-                        ul =
-                        shift<x->upLeft>(ourPieces & x->notLeftFile)
-                        & ~enemies;
-
-                for (int d; dr; dr &= dr - 1) {
-                    d = bitScanFwd(dr);
-                    *moves++ =
-                            Move::make(d + x->upLeft, d);
-                }
-
-                for (int d; dl; dl &= dl - 1) {
-                    d = bitScanFwd(dl);
-                    *moves++ =
-                            Move::make(d + x->upRight, d);
-                }
-
-                for (int d; ur; ur &= ur - 1) {
-                    d = bitScanFwd(ur);
-                    *moves++ =
-                            Move::make(d + x->downLeft, d);
-                }
-
-                for (int d; ul; ul &= ul - 1) {
-                    d = bitScanFwd(ul);
-                    *moves++ =
-                            Move::make(d + x->downRight, d);
-                }
-            }
-
             if(MT != Passive) {
                 // Aggressive king moves here?
+            }
+
+            if(MT == Aggressive) return moves;
+
+            uint64_t dr =
+                shift<x->downRight>(ourPieces & x->notRightFile)
+                    & ~enemies,
+                    dl =
+                shift<x->downLeft>(ourPieces & x->notLeftFile)
+                    & ~enemies,
+                    ur =
+                shift<x->upRight>(ourPieces & x->notRightFile)
+                    & ~enemies,
+                    ul =
+                shift<x->upLeft>(ourPieces & x->notLeftFile)
+                    & ~enemies;
+
+            for (int d; dr; dr &= dr - 1) {
+                d = bitScanFwd(dr);
+                *moves++ =
+                        Move::make(d + x->upLeft, d);
+            }
+
+            for (int d; dl; dl &= dl - 1) {
+                d = bitScanFwd(dl);
+                *moves++ =
+                        Move::make(d + x->upRight, d);
+            }
+
+            for (int d; ur; ur &= ur - 1) {
+                d = bitScanFwd(ur);
+                *moves++ =
+                        Move::make(d + x->downLeft, d);
+            }
+
+            for (int d; ul; ul &= ul - 1) {
+                d = bitScanFwd(ul);
+                *moves++ =
+                        Move::make(d + x->downRight, d);
             }
 
             return moves;
@@ -69,10 +69,13 @@ namespace checkers::movegen {
 
             constexpr Defaults* x = getDefaults<A>();
             constexpr Alliance us = A, them = ~us;
-            constexpr uint64_t ourPieces = b->getPieces<us, Pawn>(),
-                           enemies = b->getPieces<them, Pawn>(),
-                           ourLowPieces = ourPieces & ~x->highPromotionMask,
-                           ourHighPieces = ourPieces & x->highPromotionMask;
+            constexpr uint64_t
+                ourPieces = b->getPieces<us, Pawn>(),
+                enemies = b->getPieces<them, Pawn>(),
+                ourLowPieces = ourPieces & ~x->promotionMask,
+                ourMidPieces = ourPieces & x->midPromotionMask,
+                ourHighPieces = ourPieces & x->highPromotionMask;
+
 
 
             if(MT != Passive) {
@@ -88,10 +91,10 @@ namespace checkers::movegen {
             if(MT != Promotion) {
 
                 uint64_t ur =
-                        shift<x->upRight>(ourLowPieces & x->notRightFile)
+                    shift<x->upRight>(ourLowPieces & x->notRightFile)
                         & ~enemies,
-                        ul =
-                        shift<x->upLeft>(ourLowPieces & x->notLeftFile)
+                         ul =
+                    shift<x->upLeft>(ourLowPieces & x->notLeftFile)
                         & ~enemies;
 
                 for (int d; ur; ur &= ur - 1) {
@@ -108,10 +111,10 @@ namespace checkers::movegen {
             }
 
             uint64_t pr =
-                    shift<x->upRight>(ourHighPieces & x->notRightFile)
+                shift<x->upRight>(ourHighPieces & x->notRightFile)
                     & ~enemies,
                      pl =
-                    shift<x->upLeft>(ourHighPieces & x->notLeftFile)
+                shift<x->upLeft>(ourHighPieces & x->notLeftFile)
                     & ~enemies;
 
             for(int d; pr; pr &= pr - 1) {
