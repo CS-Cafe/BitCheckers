@@ -25,18 +25,16 @@ namespace checkers::movegen {
 
             if(MT == Aggressive) return moves;
 
-            uint64_t dr =
-                shift<x->downRight>(ourPieces & x->notRightFile)
-                    & ~allPieces,
+            uint64_t oursNotOnRight = ourPieces & x->notRightFile,
+                     oursNotOnLeft = ourPieces & x->notLeftFile,
+                    dr =
+                shift<x->downRight>(oursNotOnRight) & ~allPieces,
                     dl =
-                shift<x->downLeft>(ourPieces & x->notLeftFile)
-                    & ~allPieces,
+                shift<x->downLeft>(oursNotOnLeft) & ~allPieces,
                     ur =
-                shift<x->upRight>(ourPieces & x->notRightFile)
-                    & ~allPieces,
+                shift<x->upRight>(oursNotOnRight) & ~allPieces,
                     ul =
-                shift<x->upLeft>(ourPieces & x->notLeftFile)
-                    & ~allPieces;
+                shift<x->upLeft>(oursNotOnLeft) & ~allPieces;
 
             for (int d; dr; dr &= dr - 1) {
                 d = bitScanFwd(dr);
