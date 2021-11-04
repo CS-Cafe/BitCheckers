@@ -76,8 +76,6 @@ namespace checkers::movegen {
                 ourMidPieces = ourPieces & x->midPromotionMask,
                 ourHighPieces = ourPieces & x->highPromotionMask;
 
-
-
             if(MT != Passive) {
                 // Aggressive "jump" moves here?
                 if(MT != Promotion) {

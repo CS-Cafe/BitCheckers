@@ -158,13 +158,13 @@ namespace checkers {
             sb.append(
                     "\n\t  +---+---+---+---+---+---+---+---+\n"
             );
-            int x = 0;
+            char* x = buffer;
             for(char i = '1'; i < '9'; ++i) {
                 sb.push_back('\t');
                 sb.push_back(i);
                 sb.append(" | ");
                 for(char j = '1'; j < '9'; ++j) {
-                    char c = buffer[x++];
+                    char c = *x++;
                     sb.push_back(c == '\0' ? ' ' : c);
                     sb.append(" | ");
                 }
