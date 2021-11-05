@@ -75,7 +75,7 @@ namespace checkers {
          * @private
          * A mailbox representation of this board.
          */
-        PieceType mailbox[BoardLength]{
+        PieceType mailbox[BoardLength] {
                 NullPT, NullPT, NullPT, NullPT, NullPT, NullPT, NullPT, NullPT,
                 NullPT, NullPT, NullPT, NullPT, NullPT, NullPT, NullPT, NullPT,
                 NullPT, NullPT, NullPT, NullPT, NullPT, NullPT, NullPT, NullPT,
